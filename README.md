@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9334201&assignment_repo_type=AssignmentRepo)
 #  Nodejs Express App - Create and Retrieve Users (Lab 2)
 You are going to build a web application that allows end-users to create user profiles and view all profiles created.  This lab focuses on using Nodejs as the back-end server language and implementing core modules (File System core module), third-party modules (Express Framework), user-defined modules (User Object).  
 
