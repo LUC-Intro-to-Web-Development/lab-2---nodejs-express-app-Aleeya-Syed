@@ -96,7 +96,7 @@ You are going to build a web application that allows end-users to create user pr
 	<p>Please use the paths below to navigate application</p>
 	<ul>
 		<li><span style="font-weight: 700;">Home Page</span> - /</li>
-		<li><span style="font-weight: 700;">Create a User</span> - /create</li>
+		<li><span style="font-weight: 700;">Create a User</span> - /createuser</li>
 		<li><span style="font-weight: 700;">Display all Users</span> - /users</li>
 	</ul>
 	```
@@ -187,7 +187,7 @@ You are going to build a web application that allows end-users to create user pr
 	  res.render('display', user)
 	});
 	```
-4.  Navigate to the **[createuser.js]** file within the route folder and replace the res.render() function in the route with code below:
+4.  Navigate to the **[createuser.js]** file within the route folder and replace the res.send() function in the route with code below:
 	```javascript
 	//the statement below contains a render function - the first argument is the view name and the second argument is an object with one key/value pair.
 	res.render('createuser', { title: 'Create Account'})
